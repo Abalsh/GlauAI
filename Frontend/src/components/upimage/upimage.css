@@ -1,0 +1,58 @@
+.upimage-container {
+    margin: 160px auto 300px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+.page-header p {
+  font-size: 25px;
+}
+
+.upimage p {
+    margin: 0px auto 20px auto;
+}
+
+.upimage {
+    background-color: black;
+    border: 2px solid #9ba0ff;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 30px auto auto auto;
+    padding: 40px 60px;
+}
+
+.upimage .button{
+    background-color: #9ba0ff;
+    color: black;
+    font-size: 18px;
+}
+  
+.upimage p {
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+.upimage .button {
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+.upimage .button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .upimage-container>a {
+    font-size: 15px;
+    margin-top: 5px;
+    color: var(--primary-color);
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
